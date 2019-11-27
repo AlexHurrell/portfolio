@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "home": "alexhurrell.com",
+  "homepage": "alexhurrell.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
