@@ -24,7 +24,7 @@ class Home extends React.Component {
                                 <p>I am an MEng Electronics Graduate with 3 years experience as a Software Developer at IBM CIC.
                                 I recently moved to Zurich to live with my partner. Outside of software I am passionate about running, mountains
                                 and the outdoors in general. I am currently working on personal <NavLink className="projects" to="/projects">projects</NavLink> such as TERH, a news and reviews website,
-                                                         whilst also searching for the right job. If you would like to get in touch, drop me an email and let's meet up or
+                                                             whilst also searching for the right job. If you would like to get in touch, drop me an email and let's meet up or
                           go for a run.</p>
                             </div>
                         </Col>
@@ -32,13 +32,13 @@ class Home extends React.Component {
                             <div className="text-left py-3">
                                 <h4 className="pb-3">Contact:</h4>
                                 <div>
-                                    <a className="contact" href="https://github.com/AlexHurrell" target="_blank" rel="noopener noreferrer"><i class="fab fa-github pr-1"></i> Github</a>
+                                    <a className="contact" href="https://github.com/AlexHurrell" target="_blank" rel="noopener noreferrer"><i className="fab fa-github pr-1"></i> Github</a>
                                 </div>
                                 <div>
-                                    <a className="contact" href="https://www.linkedin.com/in/alex-f-hurrell" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin pr-1"></i> Linkedln</a>
+                                    <a className="contact" href="https://www.linkedin.com/in/alex-f-hurrell" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin pr-1"></i> Linkedln</a>
                                 </div>
                                 <div>
-                                    <a className="contact" href="mailto: alexhurrellcontact@gmail.com"><i class="fas fa-envelope-square pr-1"></i> Email</a>
+                                    <a className="contact" href="mailto: alexhurrellcontact@gmail.com"><i className="fas fa-envelope-square pr-1"></i> Email</a>
                                 </div>
                             </div>
                         </Col>

@@ -18,7 +18,7 @@ class projects extends React.Component {
                 <div className="container p-5">
                     {data.map((item, i) => {
                         return (
-                            <div className={i !== data.length - 1 ? "pb-5 text-left" : "text-left"}>
+                            <div className={i !== data.length - 1 ? "pb-5 text-left" : "text-left"} key={i}>
                                 < Card className="none">
                                     <Card.Img variant="top" className="limit img-border" src={item.src} />
                                     <Card.Body>
@@ -41,7 +41,7 @@ class projects extends React.Component {
                                             {item.teaser}
                                         </Card.Text>
 
-                                        <p><small class="text-muted">{item.technologies}</small></p>
+                                        <p><small className="text-muted">{item.technologies}</small></p>
 
                                     </Card.Body>
                                 </Card>

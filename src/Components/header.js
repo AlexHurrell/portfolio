@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavDropdown, Navbar } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -8,12 +8,12 @@ const Header = () => {
             <Navbar expand="md">
                 <NavLink to="/">
                     <Navbar.Brand style={{ "border": "4px solid black" }}>
-                        <div class="wrapper" style={{ "padding-left": "6px", "font-weight": "600" }}>
+                        <div className="wrapper">
                             <div styled="display: inline;">
-                                <span class="letter" style={{ "float": "left", }}>A</span>
+                                <span className="letter" style={{ "float": "left", }}>A</span>
                             </div>
                             <div styled="display: inline;">
-                                <span class="letter" style={{ "float": "left" }}>H</span>
+                                <span className="letter" style={{ "float": "left" }}>H</span>
                             </div>
                         </div>
                     </Navbar.Brand>

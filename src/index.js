@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css';
 import "@fortawesome/fontawesome-free/css/all.css";
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,6 +8,7 @@ import Main from './Containers/main';
 import Header from './Components/header';
 import ScrollToTop from './Components/scrollToTop';
 import Footer from './Components/footer';
+import './index.css';
 
 render((
     <BrowserRouter>
