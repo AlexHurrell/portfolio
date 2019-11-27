@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d9f569e6ebdccfa3a9426a294c56698",
+    "revision": "001e11d1ed8ffe75d1b4bbf16b9a2de4",
     "url": "alexhurrell.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alexhurrell.com/static/css/2.6ed14529.chunk.css"
   },
   {
-    "revision": "a3c8f107a35fa525fbf5",
+    "revision": "25b43faf36e426e60e44",
     "url": "alexhurrell.com/static/css/main.86f30e71.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alexhurrell.com/static/js/2.e37c7fe8.chunk.js"
   },
   {
-    "revision": "a3c8f107a35fa525fbf5",
-    "url": "alexhurrell.com/static/js/main.07b301b0.chunk.js"
+    "revision": "25b43faf36e426e60e44",
+    "url": "alexhurrell.com/static/js/main.d42239a5.chunk.js"
   },
   {
     "revision": "660d8e061eae1680e658",
