@@ -4,12 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   border: 8px solid #494c4e;
-  margin: 0px;
   min-height: calc(100vh - 3px);
   line-height: 1.7 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
