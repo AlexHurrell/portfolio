@@ -4,7 +4,7 @@ const data = [
         "type": "Personal",
         "teaser": "News and reviews website with articles written by myself and friends. A project to practice full stack development. ",
         "src": "/TERH.jpg",
-        "url": "https://github.com/AlexHurrell/TERHClient",
+        "url": "https://master.dpnuo8hp7rhpz.amplifyapp.com/home",
         "technologies": "React, React-Redux, Express, MongoDB, NodeJS, Serverless"
     },
     {
@@ -12,7 +12,6 @@ const data = [
         "type": "Personal",
         "teaser": "Using AWS services, a simple and secure crud app for maintaing articles for TERH.",
         "src": "/SDBA.jpg",
-        "url": "https://github.com/AlexHurrell/SecureDBApp",
         "technologies": "AWS, React, React Hooks, MongoDB, NodeJS, Serverless"
     },
     {
