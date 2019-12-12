@@ -10,7 +10,7 @@ const data = [
     {
         "title": "Secure DB Admin App (Ongoing)",
         "type": "Personal",
-        "teaser": "Using AWS services, a simple and secure crud app for maintaing articles for TERH.",
+        "teaser": "Using AWS services, a simple and secure crud app for maintaining articles for TERH.",
         "src": "/SDBA.jpg",
         "technologies": "AWS, React, React Hooks, MongoDB, NodeJS, Serverless"
     },
@@ -33,7 +33,7 @@ const data = [
     {
         "title": "Object Follower Robot",
         "type": "University",
-        "teaser": "3rd year disseratation project. The robot used image processing to follow and maintain a distance to a moving object.",
+        "teaser": "3rd year dissertation project. The robot used image processing to follow and maintain a distance to a moving object.",
         "src": "/OFR.jpg",
         "url": "https://youtu.be/koZaSVLvu1A",
         "technologies": "Arduino, C, Image Processing in Matlab"

@@ -1,5 +1,6 @@
 import React from 'react';
 import data from '../data.js'
+import { Helmet } from 'react-helmet'
 import { Card } from 'react-bootstrap'
 
 class projects extends React.Component {
@@ -7,6 +8,10 @@ class projects extends React.Component {
     render() {
         return (
             <div>
+                <Helmet>
+                    <meta name="description" content="Latest Projects: Personal, Work and University" />
+                </Helmet>
+
                 <div className="container-small ">
                     <div className="p-5 text-left">
                         <h1>Latest Projects: Personal, Work and University </h1>

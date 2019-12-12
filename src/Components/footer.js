@@ -4,10 +4,9 @@ const Footer = () => {
     return (
         <div>
             <hr />
-            <div className="text-center">
+            <div className="text-center mb-3">
                 @Copyright Alex Hurrell 2019
             </div>
-            < hr />
         </div>
     );
 }

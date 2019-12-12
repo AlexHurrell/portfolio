@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Row, Col } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 
@@ -6,6 +7,11 @@ class Home extends React.Component {
     render() {
         return (
             <div>
+
+                <Helmet>
+                    <meta name="description" content="Hi! My name is Alex Hurrell. I am a Software Developer living in Zurich." />
+                </Helmet>
+
                 <div className="container-small">
                     <div className="p-5 text-left">
                         <h1>Hi! My name is Alex Hurrell. I am a Software Developer living in Zurich.</h1>
@@ -24,7 +30,7 @@ class Home extends React.Component {
                                 <p>I am an MEng Electronics Graduate with 3 years experience as a Software Developer at IBM CIC.
                                 I recently moved to Zurich to live with my partner. Outside of software I am passionate about running, mountains
                                 and the outdoors in general. I am currently working on personal <NavLink className="projects" to="/projects">projects</NavLink> such as TERH, a news and reviews website,
-                                                             whilst also searching for the right job. If you would like to get in touch, drop me an email and let's meet up or
+                                                                                     whilst also searching for the right job. If you would like to get in touch, drop me an email and let's meet up or
                           go for a run.</p>
                             </div>
                         </Col>
